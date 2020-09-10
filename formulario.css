@@ -54,6 +54,17 @@ span.me {
 	line-height: 60px;
 }
 
+.subtitle {
+	text-align: center;
+}
+
+.subtitle > p {
+	line-height: 40px; 
+	border-bottom: 2px solid green;
+	box-shadow: rgba(0,0,0,0.4) 10px 8px 10px;
+	z-index: 1000;
+}
+
 /* content */
 
 section.main {
@@ -62,12 +73,13 @@ section.main {
 	height: 86vh;
 	width: 600px;
 	display: flex;
-	align-items: center;
-	padding: 4px;
+	align-items: flex-start;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 40px 20px;
+	box-shadow: rgba(0,0,0,0.4) 2px 0 8px;
 
 }
+
 
 form {
 	display: flex;
@@ -93,12 +105,16 @@ input, textarea {
 	line-height: 24px;
 	margin: 8px 0
 }
+.form-control.last {
+	display: flex;
+	flex-direction: column;
+}
 
 input.name {
 	width: 100%;
 }
 
-#form-last {
+#form-lastname {
 	margin-left: 10px;
 }
 
