@@ -95,3 +95,7 @@ section.center > img{
 	margin-bottom: -3px;
 
 }
+
+a.selected {
+	color: #0e8a5f
+}
