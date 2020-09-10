@@ -56,6 +56,7 @@ div.title > h1 {
 
 .sublinhado {
 	width: 48px;
+	margin: -20px 0 0 32px;
 	border-bottom: 2px solid #0e8a5f;
 
 }
@@ -88,6 +89,28 @@ section.side{
 /* section.center{
 	border: 1px solid blue;
 } */
+
+button.card-btn {
+	border: none;
+	padding: 10px;
+	width: 80px;
+	background-color: #0e8a5f;
+	margin: 2px auto;
+	border-radius: 18px;
+	outline: none;
+	transition: 0.4s;
+}
+
+button.card-btn:hover {
+	background-color: #0d573d;
+	cursor: pointer;
+}
+
+button > a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 section.center > img{
 	width: 300px;
