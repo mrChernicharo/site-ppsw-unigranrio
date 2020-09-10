@@ -20,10 +20,52 @@
 
 		</header>
 
+		<div class="title">
+			<h1>Formulário de Contato</h1>
+		</div>
+
 		<section class="main">
+			<form >
+				<div class="form-group">
+
+					<div class="form-control">
+						<label for="first">Nome</label>
+						<input class="name" type="text" name="first" id="first">
+					</div>
+
+					<div class="form-control" id="form-last">
+						<label for="last">Sobrenome</label>
+						<input class="name" type="text" name="last" id="last">
+					</div>
+				
+				</div>
+
+					<div class="form-control">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email">
+				</div>
+				<div class="form-control">
+					<label for="subject">Assunto</label>
+					<input type="text" name="subject" id="subject">
+				</div>
+				<div class="form-control">
+					<label for="message">Mensagem</label>
+					<textarea id="message" rows="4" cols="40"></textarea>
+				</div>	
+
+				<button id="submit" type="button" onclick="submitForm()">Enviar</button>
+			</form>
 
 		</section>
 		
 	</div>
+
+	<script>
+		const form = document.querySelector('form')
+
+		function submitForm() {
+			alert('form funciona!')
+		}
+	</script>
 </body>
 </html>
