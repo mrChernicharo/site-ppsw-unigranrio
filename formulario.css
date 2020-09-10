@@ -6,17 +6,13 @@
 }
 
 .container {
-	/* border: 1px solid blue; */
 	height: 100vh;
 	margin: 0 auto;
-
-
 }
 
 /* header */
 
 header {
-	/* border: 1px solid blue; */
 	height: 56px;
 	display: flex;
 	align-items: center;
@@ -68,7 +64,6 @@ span.me {
 /* content */
 
 section.main {
-	/* border: 1px solid red; */
 	background-color: #ced8d0;
 	height: 86vh;
 	width: 600px;
@@ -93,7 +88,6 @@ form {
 .form-group {
 	width: 598px;
 	display: flex;
-
 }
 
 label {
